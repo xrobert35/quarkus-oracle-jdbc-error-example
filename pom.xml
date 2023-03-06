@@ -55,9 +55,8 @@
             <artifactId>quarkus-elasticsearch-rest-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>co.elastic.clients</groupId>
-            <artifactId>elasticsearch-java</artifactId>
-            <version>8.6.2</version>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-elasticsearch-java-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
