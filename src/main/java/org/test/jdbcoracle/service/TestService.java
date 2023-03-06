@@ -1,8 +1,7 @@
 package org.test.jdbcoracle.service;
 
-import javax.enterprise.context.ApplicationScoped;
-
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
+import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
 public class TestService {

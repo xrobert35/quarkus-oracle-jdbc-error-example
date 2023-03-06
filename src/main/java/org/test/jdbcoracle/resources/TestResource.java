@@ -1,12 +1,14 @@
 package org.test.jdbcoracle.resources;
 
-import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.core.Response;
+
 
 import org.test.jdbcoracle.repository.TestEntityRepository;
 import org.test.jdbcoracle.service.TestService;
+
+import jakarta.inject.Inject;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.core.Response;
 
 @Path("/")
 public class TestResource {
